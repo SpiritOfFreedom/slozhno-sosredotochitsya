@@ -20,6 +20,7 @@ h5,
 h6,
 p {
   margin: 0;
+  font-family: 'IBM Plex mono', monospace;
 }
 
 ul {
@@ -40,3 +41,11 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+
+.section__content p + p {
+  margin-top: 10px;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
